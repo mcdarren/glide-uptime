@@ -3,7 +3,7 @@ window.function = function (seconds) {
   if (seconds.value === undefined) return undefined;
 
   var uptime = seconds.value;
-  var days = Math.floor(value / 86400);
+  var days = Math.floor(uptime / 86400);
   uptime -= days * 86400;
   var hours = Math.floor(uptime / 3600);
   uptime -= hours * 3600;
