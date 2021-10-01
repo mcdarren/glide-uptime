@@ -1,0 +1,15 @@
+{
+  "name": "Human readable uptime",
+  "description": "",
+  "author": "Darren Murphy <darren@victoriajd.com>",
+  "params": [
+    {
+      "name": "seconds",
+      "displayName": "Uptime in seconds",
+      "type": "number"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
