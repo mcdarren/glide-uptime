@@ -17,5 +17,5 @@ window.function = function (seconds) {
   if (minutes > 0) segments.push(minutes + ' minute' + ((minutes == 1) ? '' : 's'));
   if (seconds > 0) segments.push(seconds + ' second' + ((seconds == 1) ? '' : 's'));
   var uptime_string = segments.join(', ');
-  return count;
+  return uptime_string;
 }
